@@ -1,0 +1,53 @@
+[data-name="Button"] {
+  cursor: pointer;
+}
+
+.arrow-btn {
+  cursor: pointer;
+}
+
+[data-name="image"],
+[data-name="image 27"] {
+  overflow: hidden;
+}
+
+[data-name="image"] img,
+[data-name="image 27"] img {
+  transition: transform 0.4s ease;
+}
+
+[data-name="image"]:hover img,
+[data-name="image 27"]:hover img {
+  transform: scale(1.08);
+}
+
+[data-step] [data-step-circle] {
+  transition: background-color 0.5s ease, filter 0.5s ease;
+  background-color: #d1d5db !important;
+}
+
+[data-step] [data-step-icon] svg path {
+  fill: #9ca3af !important;
+  transition: fill 0.5s ease;
+}
+
+[data-step][data-active] [data-step-circle] {
+  background-color: #7a1f36 !important;
+}
+
+[data-step][data-active] [data-step-icon] svg path {
+  fill: white !important;
+}
+
+[data-name="process-title"] {
+  transition: opacity 0.3s ease;
+}
+
+[data-name="progress-active"] {
+  z-index: 0;
+}
+
+[data-step] {
+  position: relative;
+  z-index: 1;
+}
