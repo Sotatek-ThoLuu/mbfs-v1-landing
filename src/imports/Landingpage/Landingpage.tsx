@@ -12,20 +12,13 @@ function useArrowAnimation() {
     );
     if (!arrows.length) return;
 
-    const timelines: gsap.core.Timeline[] = [];
-
     arrows.forEach((arrow) => {
-      const tl = gsap.timeline({ paused: true, delay: 0.5 });
-      tl.to(arrow, { x: 5, duration: 0.8, ease: "power3.out" });
-      tl.to(arrow, { x: 0, duration: 1, ease: "power2.in" });
-      tl.to(arrow, { x: 4, duration: 0.7, ease: "power2.out" }, "+=1");
-      tl.to(arrow, { x: 0, duration: 0.9, ease: "power1.in" });
-
-      ScrollTrigger.create({
-        trigger: arrow,
-        start: "top 90%",
-        once: true,
-        onEnter: () => tl.restart(),
+      gsap.fromTo(arrow, { x: 0, opacity: 0 }, {
+        x: 4,
+        opacity: 1,
+        duration: 0.5,
+        ease: "power2.out",
+        scrollTrigger: { trigger: arrow, start: "top 90%", once: true },
       });
 
       const btn = arrow.closest('[data-name="Button"], .arrow-btn') as HTMLElement | null;
@@ -37,12 +30,9 @@ function useArrowAnimation() {
       btn.addEventListener("mouseleave", () => {
         gsap.to(arrow, { x: 0, duration: 0.25, ease: "power2.inOut", overwrite: true });
       });
-
-      timelines.push(tl);
     });
 
     return () => {
-      timelines.forEach((t) => t.kill());
       ScrollTrigger.getAll().forEach((st) => st.kill());
     };
   }, []);
@@ -7890,6 +7880,7 @@ function Container12() {
 function Container7() {
   return (
     <div
+      data-reveal="section"
       className="-translate-x-1/2 absolute content-stretch flex gap-[56px] items-start left-[calc(50%+0.5px)] top-[1048px]"
       data-name="Container"
     >
@@ -8942,11 +8933,11 @@ function Frame65() {
 function Frame15() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-[56px] w-full whitespace-nowrap">
-      <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center mb-[-8px] relative shrink-0 text-[#7a1f36]">
-        <p className="leading-[normal]">Cổng một cửa</p>
+      <div data-name="hero-line" className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center mb-[-8px] relative shrink-0 text-[#7a1f36]">
+        <p className="leading-[normal]">Cổng một cửa</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21]">
-        <p className="leading-[normal]">đầu tư Quốc Gia Việt Nam</p>
+      <div data-name="hero-line" className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21]">
+        <p className="leading-[normal]">đầu tư Quốc Gia Việt Nam</p>
       </div>
     </div>
   );
@@ -8956,9 +8947,9 @@ function Frame80() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-center leading-[0] not-italic relative shrink-0 text-center w-full">
       <Frame15 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[20px] w-full">
+      <div data-name="hero-subtitle" className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[20px] w-full">
         <p className="leading-[normal]">
-          Kết nối nhà đầu tư với cơ hội đầu tư hấp dẫn tại Việt Nam
+          Kết nối nhà đầu tư với cơ hội đầu tư hấp dẫn tại Việt Nam
         </p>
       </div>
     </div>
@@ -9008,7 +8999,7 @@ function Frame16() {
 
 function Frame79() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[24px] items-center left-1/2 top-[289px] w-[646px]">
+    <div data-name="hero-entrance" className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[24px] items-center left-1/2 top-[289px] w-[646px]">
       <Frame80 />
       <Frame16 />
     </div>
@@ -11304,7 +11295,7 @@ function Frame83() {
 
 function Frame82() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[209px] top-[3287px] w-[660px]">
+    <div data-reveal="section" className="absolute content-stretch flex flex-col gap-[20px] items-start left-[209px] top-[3287px] w-[660px]">
       <LutSaDiBSungMtSDiuCaLutThuGiaTrGiaTangToThunLiChoKinhDoanh />
       <Frame83 />
     </div>
@@ -11334,7 +11325,7 @@ function Frame85() {
 
 function Frame84() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-center left-[calc(50%-0.5px)] top-[6014px]">
+    <div data-reveal="section" className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-center left-[calc(50%-0.5px)] top-[6014px]">
       <Frame85 />
       <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
         <p className="leading-[normal]">
@@ -11587,7 +11578,7 @@ function Frame94() {
 
 function Frame93() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-start left-[calc(50%-265.5px)] top-[5430px]">
+    <div data-reveal="section" className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-start left-[calc(50%-265.5px)] top-[5430px]">
       <Frame94 />
       <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
         <p className="leading-[normal]">
@@ -13373,6 +13364,7 @@ function Frame3() {
 function PostFeed4Column() {
   return (
     <div
+      data-reveal="section"
       className="absolute content-stretch flex items-start left-[179px] top-[5544px] w-[1080px]"
       data-name="Post Feed - 4 Column"
     >
@@ -13577,6 +13569,98 @@ function Container37() {
   );
 }
 
+function useScrollReveal() {
+  useEffect(() => {
+    const staggerEls = gsap.utils.toArray<HTMLElement>('[data-reveal="stagger"]');
+    const contactEls = gsap.utils.toArray<HTMLElement>('[data-reveal="contact"]');
+    const mapEl = document.querySelector<HTMLElement>('[data-reveal="map"]');
+    const sectionEls = gsap.utils.toArray<HTMLElement>('[data-reveal="section"]');
+
+    if (staggerEls.length) {
+      gsap.fromTo(staggerEls,
+        { y: 50, opacity: 0 },
+        {
+          y: 0, opacity: 1, duration: 0.8, stagger: 0.15, ease: "power3.out",
+          scrollTrigger: { trigger: staggerEls[0], start: "top 75%", once: true },
+        }
+      );
+    }
+
+    if (contactEls.length) {
+      gsap.fromTo(contactEls,
+        { y: 40, opacity: 0 },
+        {
+          y: 0, opacity: 1, duration: 0.6, stagger: 0.12, ease: "power3.out",
+          scrollTrigger: { trigger: contactEls[0], start: "top 75%", once: true },
+        }
+      );
+    }
+
+    if (mapEl) {
+      gsap.fromTo(mapEl,
+        { scale: 0.85, opacity: 0 },
+        {
+          scale: 1, opacity: 1, duration: 0.8, ease: "power3.out",
+          scrollTrigger: { trigger: mapEl, start: "top 70%", once: true },
+        }
+      );
+    }
+
+    if (sectionEls.length) {
+      sectionEls.forEach((el) => {
+        gsap.fromTo(el,
+          { y: 40, opacity: 0 },
+          {
+            y: 0, opacity: 1, duration: 0.7, ease: "power3.out",
+            scrollTrigger: { trigger: el, start: "top 75%", once: true },
+          }
+        );
+      });
+    }
+
+    return () => ScrollTrigger.getAll().forEach((st) => st.kill());
+  }, []);
+}
+
+function useHeroEntrance() {
+  useEffect(() => {
+    const container = document.querySelector<HTMLElement>('[data-name="hero-entrance"]');
+    if (!container) return;
+
+    const lines = container.querySelectorAll<HTMLElement>('[data-name="hero-line"]');
+    const subtitle = container.querySelector<HTMLElement>('[data-name="hero-subtitle"]');
+    const cta = container.querySelector<HTMLElement>('[data-name="Button"]');
+
+    const tl = gsap.timeline({ delay: 0.4 });
+
+    tl.fromTo(
+      lines,
+      { y: 40, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.7, stagger: 0.15, ease: "power3.out" }
+    );
+
+    if (subtitle) {
+      tl.fromTo(
+        subtitle,
+        { y: 20, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.5, ease: "power2.out" },
+        "-=0.1"
+      );
+    }
+
+    if (cta) {
+      tl.fromTo(
+        cta,
+        { y: 15, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.4, ease: "power2.out" },
+        "-=0.1"
+      );
+    }
+
+    return () => tl.kill();
+  }, []);
+}
+
 function ScrollToTop() {
   const ref = useRef<HTMLButtonElement>(null);
 
@@ -13632,12 +13716,14 @@ export default function Landingpage() {
   useArrowAnimation();
   useTitleReveal();
   useProcessSection();
+  useScrollReveal();
+  useHeroEntrance();
   return (
     <div
       className="bg-white relative w-full max-w-[1440px] mx-auto h-[6769px]"
       data-name="Landingpage"
     >
-      <div className="absolute bg-[#0a0a0a] h-[460px] left-[180px] top-[3899px] w-[1080px]" />
+      <div data-reveal="section" className="absolute bg-[#0a0a0a] h-[460px] left-[180px] top-[3899px] w-[1080px]" />
       <Frame110 />
       <Container />
       <Line />
@@ -13654,11 +13740,13 @@ export default function Landingpage() {
         <p className="leading-[normal]">Nhấn vào từng vùng để xem chi tiết.</p>
       </div>
       <Border />
-      <img
-        alt=""
-        className="absolute h-[539px] left-[180px] top-[1562px] w-[1079px]"
-        src={imgIllustration3}
-      />
+      <div data-reveal="section">
+        <img
+          alt=""
+          className="absolute h-[539px] left-[180px] top-[1562px] w-[1079px]"
+          src={imgIllustration3}
+        />
+      </div>
       <Frame29 />
       <Button />
       <Button1 />
@@ -14459,10 +14547,18 @@ export default function Landingpage() {
           </div>
         </div>
       </div>
-      <Frame87 />
-      <Frame89 />
-      <Frame111 />
-      <Frame112 />
+      <div data-reveal="contact">
+        <Frame87 />
+      </div>
+      <div data-reveal="contact">
+        <Frame89 />
+      </div>
+      <div data-reveal="contact">
+        <Frame111 />
+      </div>
+      <div data-reveal="contact">
+        <Frame112 />
+      </div>
       <Frame93 />
       <Group98 />
       <Frame118 />
