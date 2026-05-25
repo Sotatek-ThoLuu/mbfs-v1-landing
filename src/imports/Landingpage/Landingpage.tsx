@@ -122,19 +122,56 @@ function useProcessSection() {
     const container = document.querySelector<HTMLElement>('[data-name="Landingpage"]');
     if (!line || !steps.length) return;
 
+    const firstStepAnchor = steps[0].querySelector<HTMLElement>("[data-step-circle]") ?? steps[0];
+    const lastStepAnchor = steps[steps.length - 1].querySelector<HTMLElement>("[data-step-circle]") ?? steps[steps.length - 1];
+    const setTitleByProgress = (progress: number) => {
+      if (!title || !container) return;
+
+      const containerTop = container.getBoundingClientRect().top + window.scrollY;
+      const offset = container.getBoundingClientRect().left;
+      const firstStepCenter = firstStepAnchor.getBoundingClientRect().top + window.scrollY + firstStepAnchor.offsetHeight / 2;
+      const lastStepCenter = lastStepAnchor.getBoundingClientRect().top + window.scrollY + lastStepAnchor.offsetHeight / 2;
+      const titleCenter = gsap.utils.interpolate(firstStepCenter, lastStepCenter, progress);
+      const viewportTop = Math.round(titleCenter - window.scrollY - title.offsetHeight / 2) + 14;
+console.log({progress})
+      if (progress <= 0) {
+        gsap.set(title, { position: "absolute", top: 4424, left: 209, clearProps: "transform,willChange", zIndex: "" });
+      } else if (progress >= 1) {
+        gsap.set(title, {
+          position: "absolute",
+          top: 5154,
+          left: 209,
+          clearProps: "transform,willChange",
+          zIndex: "",
+        });
+      } else {
+        gsap.set(title, {
+          position: "fixed",
+          top: 0,
+          left: 209 + offset,
+          y: viewportTop,
+          force3D: true,
+          willChange: "transform",
+          zIndex: 10,
+        });
+      }
+    };
+
     gsap.set(line, { strokeDasharray: 726, strokeDashoffset: 726 });
 
     gsap.to(line, {
       strokeDashoffset: 0,
       ease: "none",
       scrollTrigger: {
-        trigger: steps[0],
-        start: "top 130px",
-        endTrigger: steps[steps.length - 1],
-        end: "top 20%",
+        trigger: firstStepAnchor,
+        start: "center 60%",
+        endTrigger: lastStepAnchor,
+        end: "center 45%",
         scrub: 1,
+        onRefresh: (self) => setTitleByProgress(self.progress),
         onUpdate: (self) => {
           const p = self.progress;
+          setTitleByProgress(p);
           steps.forEach((s, i) => {
             const threshold = Math.max(0, i / (steps.length - 1) - 0.05);
             s.toggleAttribute("data-active", p >= threshold);
@@ -142,31 +179,6 @@ function useProcessSection() {
         },
       },
     });
-
-    if (title && container) {
-      ScrollTrigger.create({
-        trigger: title,
-        start: "top 120px",
-        endTrigger: steps[steps.length - 1],
-        end: "bottom 100px",
-        onUpdate: (self) => {
-          const offset = container.getBoundingClientRect().left;
-          const progress = self.progress;
-
-          if (progress <= 0) {
-            gsap.set(title, { position: "absolute", top: 4421, left: 209, clearProps: "transform", zIndex: "" });
-          } else if (progress >= 1) {
-            const lastCircle = steps[steps.length - 1].querySelector<HTMLElement>("[data-step-circle]");
-            const stepEndTop = lastCircle
-              ? lastCircle.getBoundingClientRect().top + window.scrollY + lastCircle.offsetHeight / 2
-              : steps[steps.length - 1].getBoundingClientRect().top + window.scrollY;
-            gsap.set(title, { position: "absolute", top: stepEndTop, left: 209, clearProps: "transform", zIndex: "" });
-          } else {
-            gsap.set(title, { position: "fixed", top: 130, left: 209 + offset, zIndex: 10 });
-          }
-        },
-      });
-    }
 
     return () => {
       ScrollTrigger.getAll().forEach((st) => st.kill());
