@@ -6242,7 +6242,7 @@ function List() {
 
 function Frame18() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">đầu tư</p>
       </div>
@@ -6276,7 +6276,7 @@ function Frame22() {
 
 function Frame20() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Bản đồ</p>
       </div>
@@ -6308,7 +6308,7 @@ function Frame35() {
 
 function Frame23() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="title-accent flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Văn bản</p>
       </div>
@@ -6329,7 +6329,7 @@ function Frame21() {
 
 function Frame24() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="title-accent flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Tin tức</p>
       </div>
@@ -11320,7 +11320,7 @@ function Frame82() {
 
 function Frame86() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Mạng lưới</p>
       </div>
@@ -11573,7 +11573,7 @@ function Frame112() {
 
 function Frame95() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Câu chuyện</p>
       </div>
@@ -11607,7 +11607,7 @@ function Frame93() {
 
 function Frame97() {
   return (
-    <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
+    <div className="content-stretch flex items-center justify-center relative shrink-0">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-center text-white whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Kết nối</p>
       </div>
