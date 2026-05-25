@@ -32,8 +32,8 @@ function useArrowAnimation() {
     if (!arrows.length) return;
 
     arrows.forEach((arrow) => {
-      gsap.fromTo(arrow, { x: 0, opacity: 0 }, {
-        x: 4,
+      gsap.fromTo(arrow, { x: -4, opacity: 0 }, {
+        x: 0,
         opacity: 1,
         duration: 0.5,
         ease: "power2.out",
@@ -6450,7 +6450,7 @@ function Button() {
   return (
     <div
       className="absolute left-[209px] rounded-[400px] top-[1478px]"
-      data-name="Button"
+      data-name="hero-login-cta"
     >
       <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip pl-[24px] pr-[20px] py-[8px] relative rounded-[inherit] size-full">
         <p className="leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap font-medium">
@@ -6764,7 +6764,7 @@ function Frame47() {
 
 function Frame48() {
   return (
-    <div className="content-stretch flex gap-[16px] items-center relative shrink-0">
+    <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-name="hero-cta">
       <Frame7 />
       <Frame47 />
     </div>
@@ -8995,6 +8995,7 @@ function Button4() {
   return (
     <div
       className="bg-[#7a1f36] content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[50.5px] py-[16px] relative rounded-[400px] shadow-[0px_6px_24px_2px_rgba(138,25,29,0.25)] shrink-0 w-[180px]"
+      data-hero-login-cta
       data-name="Button"
     >
       <p className="font-semibold leading-[normal] not-italic relative shrink-0 text-[20px] text-white tracking-[-0.08px] whitespace-nowrap">
@@ -13643,31 +13644,41 @@ function useHeroEntrance() {
 
     const lines = container.querySelectorAll<HTMLElement>('[data-name="hero-line"]');
     const subtitle = container.querySelector<HTMLElement>('[data-name="hero-subtitle"]');
-    const ctas = container.querySelectorAll<HTMLElement>('[data-name="Button"]');
+    const ctaGroup = container.querySelector<HTMLElement>('[data-name="hero-cta"]');
+    const loginCta = container.querySelector<HTMLElement>('[data-hero-login-cta]');
 
-    const tl = gsap.timeline({ delay: 0.4 });
+    const tl = gsap.timeline({ delay: 0.2 });
 
     tl.fromTo(
       lines,
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.7, stagger: 0.15, ease: "power3.out" }
+      { opacity: 0, scale: 0.99, filter: "blur(5px)" },
+      { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.64, stagger: 0.06, ease: "power2.out" }
     );
 
     if (subtitle) {
       tl.fromTo(
         subtitle,
-        { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5, ease: "power2.out" },
-        "-=0.1"
+        { opacity: 0, filter: "blur(3px)" },
+        { opacity: 1, filter: "blur(0px)", duration: 0.4, ease: "power2.out" },
+        "-=0.4"
       );
     }
 
-    if (ctas.length) {
+    if (ctaGroup) {
       tl.fromTo(
-        ctas,
-        { y: 15, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.4, stagger: 0.08, ease: "power2.out" },
-        "-=0.1"
+        ctaGroup,
+        { opacity: 0, filter: "blur(1px)" },
+        { opacity: 1, filter: "blur(0px)", duration: 0.28, ease: "power2.out" },
+        "-=0.26"
+      );
+    }
+
+    if (loginCta) {
+      tl.fromTo(
+        loginCta,
+        { boxShadow: "0px 3px 12px 0px rgba(138,25,29,0.10)" },
+        { boxShadow: "0px 6px 24px 2px rgba(138,25,29,0.25)", duration: 0.36, ease: "power2.out" },
+        "-=0.22"
       );
     }
 
