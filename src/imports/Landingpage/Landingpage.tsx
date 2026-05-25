@@ -2,6 +2,25 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import svgPaths from "./svg-fpdiavvsjr";
+import imgRectangle7 from "./4f06a5e79fa81814d968eca1e7cf29df3170d4b9.png";
+import imgFiaLogo from "./c4a7bf0dfe4112ce3057cdef870af9a4c8382e40.png";
+import imgImage27 from "./b7d7eec955c61953c37607db4f32c3da2b1acac4.png";
+import imgHanoiBlankMapSvg1 from "./c92182e4c25d6ce28a58e526218c723f85bf97a9.png";
+import imgAnh11 from "./8f5011770a41bb269c4b11d22fb885e855a49476.png";
+import img87733Bdd95954Fb79Df67Aba4B0Ab3501 from "./60f11fd261d8e7f7b4d558722e91b7269d626a2a.png";
+import imgEllipse5 from "./34e641601d57335c15aa523f9492aa1726ab312d.png";
+import imgLutSaDiBSungMtSDiuCaLutThuGiaTrGiaTangToThunLiChoKinhDoanh from "./bd4eb509d4196a58b4ad7bbea88640c30e2ede64.png";
+import imgRectangle12 from "./7b0b2b9c414fe682261622e980873fb4bbd3110c.png";
+import imgRectangle13 from "./3ac68e1d76387706b11cd0ffae6e7c18c30d3223.png";
+import imgRectangle14 from "./ebe9ab1f5653ae5c9903549cec05f53c3d1d8330.png";
+import imgRectangle15 from "./debc71a0169834b8561ab975df8e7ddd3b56906f.png";
+import imgImage from "./a55b9528f6d3519125e017338185cab2c4ba96e4.png";
+import imgImage1 from "./5b20a0bc0191797dc07d5e661f1c8e565a8b0f6c.png";
+import imgImage2 from "./ec3e20d4edf24735a56bfca5346c68fb44a253b7.png";
+import imgIllustration0 from "./0.png";
+import imgIllustration1 from "./1.png";
+import imgIllustration2 from "./2.png";
+import imgIllustration3 from "./3.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -152,25 +171,7 @@ function useProcessSection() {
   }, []);
 }
 
-import imgRectangle7 from "./4f06a5e79fa81814d968eca1e7cf29df3170d4b9.png";
-import imgFiaLogo from "./c4a7bf0dfe4112ce3057cdef870af9a4c8382e40.png";
-import imgImage27 from "./b7d7eec955c61953c37607db4f32c3da2b1acac4.png";
-import imgHanoiBlankMapSvg1 from "./c92182e4c25d6ce28a58e526218c723f85bf97a9.png";
-import imgAnh11 from "./8f5011770a41bb269c4b11d22fb885e855a49476.png";
-import img87733Bdd95954Fb79Df67Aba4B0Ab3501 from "./60f11fd261d8e7f7b4d558722e91b7269d626a2a.png";
-import imgEllipse5 from "./34e641601d57335c15aa523f9492aa1726ab312d.png";
-import imgLutSaDiBSungMtSDiuCaLutThuGiaTrGiaTangToThunLiChoKinhDoanh from "./bd4eb509d4196a58b4ad7bbea88640c30e2ede64.png";
-import imgRectangle12 from "./7b0b2b9c414fe682261622e980873fb4bbd3110c.png";
-import imgRectangle13 from "./3ac68e1d76387706b11cd0ffae6e7c18c30d3223.png";
-import imgRectangle14 from "./ebe9ab1f5653ae5c9903549cec05f53c3d1d8330.png";
-import imgRectangle15 from "./debc71a0169834b8561ab975df8e7ddd3b56906f.png";
-import imgImage from "./a55b9528f6d3519125e017338185cab2c4ba96e4.png";
-import imgImage1 from "./5b20a0bc0191797dc07d5e661f1c8e565a8b0f6c.png";
-import imgImage2 from "./ec3e20d4edf24735a56bfca5346c68fb44a253b7.png";
-import imgIllustration0 from "./0.png";
-import imgIllustration1 from "./1.png";
-import imgIllustration2 from "./2.png";
-import imgIllustration3 from "./3.png";
+
 
 function Frame110() {
   return (
@@ -6196,7 +6197,7 @@ function Line() {
 function List() {
   return (
     <div
-      className="-translate-x-1/2 absolute content-stretch flex font-['SVN-Neue_Montreal:Regular',sans-serif] gap-[20px] items-start leading-[0] left-[calc(50%+385px)] not-italic text-[#1a1c21] text-[14px] top-[84px] whitespace-nowrap"
+      className="-translate-x-1/2 absolute content-stretch flex gap-[20px] items-start leading-[0] left-[calc(50%+385px)] not-italic text-[#1a1c21] text-[14px] top-[84px] whitespace-nowrap"
       data-name="List"
     >
       <div className="flex flex-col justify-center relative shrink-0">
@@ -6228,7 +6229,7 @@ function Frame18() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">đầu tư</p>
+        <p className="leading-[normal] font-merriweather font-semibold">đầu tư</p>
       </div>
     </div>
   );
@@ -6237,8 +6238,8 @@ function Frame18() {
 function Frame17() {
   return (
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">Dịch vụ công về</p>
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
+        <p className="leading-[normal] font-semibold">Dịch vụ công về</p>
       </div>
       <Frame18 />
     </div>
@@ -6249,7 +6250,7 @@ function Frame22() {
   return (
     <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-center left-[calc(50%-0.5px)] top-[926px]">
       <Frame17 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] min-w-full not-italic relative shrink-0 text-[#4d5464] text-[16px]">
+      <div className="flex flex-col justify-center leading-[0] min-w-full not-italic relative shrink-0 text-[#4d5464] text-[16px]">
         <p className="leading-[normal]">
           Nộp hồ sơ và theo dõi tiến độ xử lý thủ tục hành chính về đầu tư
         </p>
@@ -6262,7 +6263,7 @@ function Frame20() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">Bản đồ</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Bản đồ</p>
       </div>
     </div>
   );
@@ -6272,8 +6273,8 @@ function Frame19() {
   return (
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame20 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">đầu tư</p>
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
+        <p className="leading-[normal] font-semibold">đầu tư</p>
       </div>
     </div>
   );
@@ -6283,7 +6284,7 @@ function Frame35() {
   return (
     <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-center left-[calc(50%-0.5px)] top-[2121px]">
       <Frame19 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
         <p className="leading-[normal]">{`Khám phá các khu công nghiệp và cơ hội đầu tư trên toàn quốc. `}</p>
       </div>
     </div>
@@ -6294,7 +6295,7 @@ function Frame23() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">Văn bản</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Văn bản</p>
       </div>
     </div>
   );
@@ -6304,8 +6305,8 @@ function Frame21() {
   return (
     <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center left-[calc(50%-346.5px)] top-[2874px]">
       <Frame23 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">pháp luật</p>
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
+        <p className="leading-[normal] font-semibold">pháp luật</p>
       </div>
     </div>
   );
@@ -6315,7 +6316,7 @@ function Frame24() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">Tin tức</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Tin tức</p>
       </div>
     </div>
   );
@@ -6400,7 +6401,7 @@ function Frame25() {
   return (
     <div className="content-stretch flex items-center justify-center mb-[-4px] pt-[5px] relative shrink-0 w-full">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-center text-white whitespace-nowrap">
-        <p className="leading-[normal]">Tổng quan</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Tổng quan</p>
       </div>
     </div>
   );
@@ -6410,8 +6411,8 @@ function Frame28() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0">
       <Frame25 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-white w-full">
-        <p className="leading-[normal]">đầu tư</p>
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-white w-full">
+        <p className="leading-[normal] font-semibold">đầu tư</p>
       </div>
     </div>
   );
@@ -6421,7 +6422,7 @@ function Frame29() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4px] items-start left-[209px] top-[1596px] w-[255px]">
       <Frame28 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] min-w-full not-italic opacity-70 relative shrink-0 text-[16px] text-white w-[min-content]">
+      <div className="flex flex-col justify-center leading-[0] min-w-full not-italic opacity-70 relative shrink-0 text-[16px] text-white w-[min-content]">
         <p className="leading-[normal]">
           Số liệu thống kê đầu tư cập nhật đến tháng 12/2024
         </p>
@@ -6437,7 +6438,7 @@ function Button() {
       data-name="Button"
     >
       <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip pl-[24px] pr-[20px] py-[8px] relative rounded-[inherit] size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap">
+        <p className="leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap font-medium">
           Bắt đầu nộp hồ sơ
         </p>
         <div
@@ -6474,7 +6475,7 @@ function Button1() {
       data-name="Button"
     >
       <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip pl-[24px] pr-[20px] py-[8px] relative rounded-[inherit] size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap">
+        <p className="leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap font-medium">
           Bắt đầu nộp hồ sơ
         </p>
         <div
@@ -6511,7 +6512,7 @@ function Button2() {
       data-name="Button"
     >
       <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip pl-[24px] pr-[20px] py-[8px] relative rounded-[inherit] size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap">
+        <p className="leading-[24px] not-italic relative shrink-0 text-[#7a1f36] text-[16px] tracking-[-0.08px] whitespace-nowrap font-medium">
           Bắt đầu nộp hồ sơ
         </p>
         <div
@@ -6736,10 +6737,10 @@ function Frame7() {
 function Frame47() {
   return (
     <div className="content-stretch flex flex-col items-start not-italic relative shrink-0 whitespace-nowrap">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] relative shrink-0 text-[#1a1c21] text-[16px]">
+      <p className="leading-[24px] relative shrink-0 text-[#1a1c21] text-[16px] font-semibold">
         17/2026/QH16
       </p>
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] tracking-[0.6px]">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] tracking-[0.6px] font-medium">
         NGHỊ QUYẾT (QH)
       </p>
     </div>
@@ -6787,7 +6788,7 @@ function Container1() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -6797,7 +6798,7 @@ function Container1() {
 function Frame55() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[22px] min-w-full not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[min-content]">
+      <p className="leading-[22px] min-w-full not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[min-content]">
         Phê chuẩn đề nghị của Thủ tướng Chính phủ về việc bổ nhiệm Bộ trưởng và
         thành viên khác của Chính phủ nhiệm kỳ 2026 - 2031
       </p>
@@ -7016,10 +7017,10 @@ function Frame8() {
 function Frame50() {
   return (
     <div className="content-stretch flex flex-col items-start not-italic relative shrink-0 whitespace-nowrap">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] relative shrink-0 text-[#1a1c21] text-[16px]">
+      <p className="leading-[24px] relative shrink-0 text-[#1a1c21] text-[16px] font-semibold">
         18/2026/QH16-Test
       </p>
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] tracking-[0.6px]">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] tracking-[0.6px] font-medium">
         NGHỊ QUYẾT (QH)
       </p>
     </div>
@@ -7067,7 +7068,7 @@ function Container2() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -7077,7 +7078,7 @@ function Container2() {
 function Frame56() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[22px] min-w-full not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[min-content]">
+      <p className="leading-[22px] min-w-full not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[min-content]">
         Phê chuẩn đề nghị của Thủ tướng Chính phủ về việc bổ nhiệm Bộ trưởng và
         thành viên khác của Chính phủ nhiệm kỳ 2026 - 2031
       </p>
@@ -7281,10 +7282,10 @@ function Frame9() {
 function Frame57() {
   return (
     <div className="content-stretch flex flex-col items-start not-italic relative shrink-0 whitespace-nowrap">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] relative shrink-0 text-[#1a1c21] text-[16px]">
+      <p className="leading-[24px] relative shrink-0 text-[#1a1c21] text-[16px] font-semibold">
         128/2026/NĐ-CP-Test
       </p>
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] tracking-[0.6px]">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] tracking-[0.6px] font-medium">
         NGHỊ QUYẾT (QH)
       </p>
     </div>
@@ -7332,7 +7333,7 @@ function Container3() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -7342,7 +7343,7 @@ function Container3() {
 function Frame58() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[22px] min-w-full not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[min-content]">
+      <p className="leading-[22px] min-w-full not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[min-content]">
         Phê chuẩn đề nghị của Thủ tướng Chính phủ về việc bổ nhiệm Bộ trưởng và
         thành viên khác của Chính phủ nhiệm kỳ 2026 - 2031
       </p>
@@ -7383,7 +7384,7 @@ function Container4() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -7396,7 +7397,7 @@ function Text() {
       className="content-stretch flex flex-col gap-[8px] h-[70px] items-start relative shrink-0 w-full"
       data-name="Text"
     >
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[#1e2a37] text-[16px] w-[min-content]">
+      <p className="leading-[24px] min-w-full not-italic relative shrink-0 text-[#1e2a37] text-[16px] w-[min-content] font-semibold">
         Quyết tâm nâng hạng thị trường chứng khoán: Khơi thông dòng vốn tỷ đô
       </p>
       <Container4 />
@@ -7451,7 +7452,7 @@ function Container5() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -7464,7 +7465,7 @@ function Text1() {
       className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[300px]"
       data-name="Text"
     >
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[#1e2a37] text-[16px] w-[min-content]">{`Nghệ thuật Đa dạng hóa Danh mục: Xây dựng "Pháo đài" Tài chính trước Biến động Thị trường`}</p>
+      <p className="leading-[24px] min-w-full not-italic relative shrink-0 text-[#1e2a37] text-[16px] w-[min-content] font-semibold">{`Nghệ thuật Đa dạng hóa Danh mục: Xây dựng "Pháo đài" Tài chính trước Biến động Thị trường`}</p>
       <Container5 />
     </div>
   );
@@ -7502,7 +7503,7 @@ function Container6() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -7515,7 +7516,7 @@ function Text2() {
       className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[300px]"
       data-name="Text"
     >
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] min-w-full not-italic relative shrink-0 text-[#1e2a37] text-[16px] w-[min-content]">
+      <p className="leading-[24px] min-w-full not-italic relative shrink-0 text-[#1e2a37] text-[16px] w-[min-content] font-semibold">
         Mã đáo Thành công: NovaMart đạt Doanh số Kỷ lục trước Tết Bính Ngọ 2026
       </p>
       <Container6 />
@@ -7698,10 +7699,10 @@ function Container9() {
       className="content-stretch flex flex-col items-start leading-[0] not-italic relative shrink-0"
       data-name="Container"
     >
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[18px] w-full">
-        <p className="leading-[normal]">Cấp độ 4</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[18px] w-full">
+        <p className="leading-[normal] font-semibold">Cấp độ 4</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
+      <div className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
         <p className="leading-[normal]">Dịch vụ công toàn trình</p>
       </div>
     </div>
@@ -7793,10 +7794,10 @@ function Container11() {
       className="content-stretch flex flex-col items-start leading-[0] not-italic relative shrink-0 whitespace-nowrap"
       data-name="Container"
     >
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[18px]">
-        <p className="leading-[normal]">100%</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[18px]">
+        <p className="leading-[normal] font-semibold">100%</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[14px]">
+      <div className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[14px]">
         <p className="leading-[normal]">Bảo mật thông tin</p>
       </div>
     </div>
@@ -7855,10 +7856,10 @@ function Container13() {
       className="content-stretch flex flex-col items-start leading-[0] not-italic relative shrink-0 whitespace-nowrap"
       data-name="Container"
     >
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[18px]">
-        <p className="leading-[normal]">24/7</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[18px]">
+        <p className="leading-[normal] font-semibold">24/7</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[14px]">
+      <div className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[14px]">
         <p className="leading-[normal]">Hỗ trợ trực tuyến</p>
       </div>
     </div>
@@ -7897,31 +7898,31 @@ function Container14() {
       className="content-stretch flex gap-[12px] items-center leading-[0] not-italic relative shrink-0 text-[13px] text-white"
       data-name="Container"
     >
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center relative shrink-0 whitespace-nowrap">
+      <div className="flex flex-col justify-center relative shrink-0 whitespace-nowrap">
         <p className="leading-[18px]">Tiếng Việt</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-20 relative shrink-0 w-[2px]">
+      <div className="flex flex-col justify-center opacity-20 relative shrink-0 w-[2px]">
         <p className="leading-[18px]">|</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 whitespace-nowrap">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 whitespace-nowrap">
         <p className="leading-[18px]">English</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-20 relative shrink-0 w-[2px]">
+      <div className="flex flex-col justify-center opacity-20 relative shrink-0 w-[2px]">
         <p className="leading-[18px]">|</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0">
         <p className="leading-[18px]">中文</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-20 relative shrink-0 w-[2px]">
+      <div className="flex flex-col justify-center opacity-20 relative shrink-0 w-[2px]">
         <p className="leading-[18px]">|</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 whitespace-nowrap">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 whitespace-nowrap">
         <p className="leading-[18px]">日本語</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-20 relative shrink-0 w-[2px]">
+      <div className="flex flex-col justify-center opacity-20 relative shrink-0 w-[2px]">
         <p className="leading-[18px]">|</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 whitespace-nowrap">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 whitespace-nowrap">
         <p className="leading-[18px]">한국어</p>
       </div>
     </div>
@@ -7939,10 +7940,10 @@ function Frame129() {
 function Frame26() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4px] items-start leading-[0] left-[209px] not-italic top-[1382px] w-[298px]">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[20px] w-full">
-        <p className="leading-[normal]">Đầu tư tại Việt Nam</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[20px] w-full">
+        <p className="leading-[normal] font-semibold">Đầu tư tại Việt Nam</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
+      <div className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
         <p className="leading-[20px]">
           Đơn giản hóa thủ tục, nâng cao hiệu quả đầu tư tại Việt Nam
         </p>
@@ -7954,10 +7955,10 @@ function Frame26() {
 function Frame27() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4px] items-start leading-[0] left-[569px] not-italic top-[1382px] w-[298px]">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[20px] w-full">
-        <p className="leading-[normal] text-nowrap">Đầu tư từ Việt Nam ra nước ngoài</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[20px] w-full">
+        <p className="leading-[normal] text-nowrap font-semibold">Đầu tư từ Việt Nam ra nước ngoài</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
+      <div className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
         <p className="leading-[20px]">
           Đồng hành cùng nhà đầu tư Việt Nam trong quá trình đầu tư ra nước
           ngoài
@@ -7970,10 +7971,10 @@ function Frame27() {
 function Frame30() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[4px] items-start leading-[0] left-[929px] not-italic top-[1380px] w-[298px]">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[20px] w-full">
-        <p className="leading-[normal]">Hỗ trợ đầu tư</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[20px] w-full">
+        <p className="leading-[normal] font-semibold">Hỗ trợ đầu tư</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
+      <div className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[14px] w-full">
         <p className="leading-[20px]">
           Nơi nhà đầu tư thực hiện các thủ tục hỗ trợ chi phí đầu tư
         </p>
@@ -7985,7 +7986,7 @@ function Frame30() {
 function Frame31() {
   return (
     <div className="bg-[rgba(255,255,255,0.15)] content-stretch flex items-center justify-center px-[12px] py-[2px] relative rounded-[6px] shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
         <p className="leading-[20px]">FDI</p>
       </div>
     </div>
@@ -7997,10 +7998,10 @@ function Container16() {
   return (
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start leading-[0] not-italic relative size-full">
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center relative shrink-0 text-[#fef0f0] text-[30px] w-full">
+        <div className="flex flex-col justify-center relative shrink-0 text-[#fef0f0] text-[30px] w-full">
           <p className="leading-[44px]" ref={countRef}>2.847</p>
         </div>
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Tổng số dự án</p>
         </div>
       </div>
@@ -8022,7 +8023,7 @@ function OverlayBorderOverlayBlur() {
 function Frame34() {
   return (
     <div className="content-stretch flex items-center justify-center pb-[5px] relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         <p className="leading-[24px]">tỷ USD</p>
       </div>
     </div>
@@ -8033,7 +8034,7 @@ function Frame33() {
   const countRef = useCountUp(456.8, { decimals: 1 });
   return (
     <div className="content-stretch flex gap-[6px] items-end relative shrink-0 w-full">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
         <p className="leading-[44px]" ref={countRef}>456,8</p>
       </div>
       <Frame34 />
@@ -8046,7 +8047,7 @@ function Container17() {
     <div className="relative shrink-0 w-[135px]" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
         <Frame33 />
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Vốn đăng ký</p>
         </div>
       </div>
@@ -8068,7 +8069,7 @@ function OverlayBorderOverlayBlur1() {
 function Frame37() {
   return (
     <div className="content-stretch flex items-center justify-center pb-[5px] relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         <p className="leading-[24px]">tỷ USD</p>
       </div>
     </div>
@@ -8079,7 +8080,7 @@ function Frame36() {
   const countRef = useCountUp(298.5, { decimals: 1 });
   return (
     <div className="content-stretch flex gap-[6px] items-end relative shrink-0 w-full">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
         <p className="leading-[44px]" ref={countRef}>298,5</p>
       </div>
       <Frame37 />
@@ -8092,7 +8093,7 @@ function Container18() {
     <div className="relative shrink-0 w-[134px]" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
         <Frame36 />
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Vốn thực hiện</p>
         </div>
       </div>
@@ -8136,7 +8137,7 @@ function Frame32() {
 function Frame39() {
   return (
     <div className="bg-[rgba(255,255,255,0.15)] content-stretch flex items-center justify-center px-[12px] py-[2px] relative rounded-[6px] shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
         <p className="leading-[20px]">{`M&A`}</p>
       </div>
     </div>
@@ -8148,10 +8149,10 @@ function Container20() {
   return (
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start leading-[0] not-italic relative size-full">
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center relative shrink-0 text-[#fef0f0] text-[30px] w-full">
+        <div className="flex flex-col justify-center relative shrink-0 text-[#fef0f0] text-[30px] w-full">
           <p className="leading-[44px]" ref={countRef}>1205</p>
         </div>
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Lượt góp vốn</p>
         </div>
       </div>
@@ -8173,7 +8174,7 @@ function OverlayBorderOverlayBlur3() {
 function Frame41() {
   return (
     <div className="content-stretch flex items-center justify-center pb-[5px] relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         <p className="leading-[24px]">tỷ USD</p>
       </div>
     </div>
@@ -8184,7 +8185,7 @@ function Frame40() {
   const countRef = useCountUp(12.5, { decimals: 1 });
   return (
     <div className="content-stretch flex gap-[6px] items-end relative shrink-0 w-full">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
         <p className="leading-[44px]" ref={countRef}>12,5</p>
       </div>
       <Frame41 />
@@ -8197,7 +8198,7 @@ function Container21() {
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
         <Frame40 />
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Giá trị góp vốn</p>
         </div>
       </div>
@@ -8219,7 +8220,7 @@ function OverlayBorderOverlayBlur4() {
 function Frame43() {
   return (
     <div className="content-stretch flex items-center justify-center pb-[5px] relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         <p className="leading-[24px]">tỷ USD</p>
       </div>
     </div>
@@ -8230,7 +8231,7 @@ function Frame42() {
   const countRef = useCountUp(8.9, { decimals: 1 });
   return (
     <div className="content-stretch flex gap-[6px] items-end relative shrink-0 w-full">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
         <p className="leading-[44px]" ref={countRef}>8,9</p>
       </div>
       <Frame43 />
@@ -8243,7 +8244,7 @@ function Container22() {
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
         <Frame42 />
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Vốn giải ngân</p>
         </div>
       </div>
@@ -8287,7 +8288,7 @@ function Frame38() {
 function Frame45() {
   return (
     <div className="bg-[rgba(255,255,255,0.15)] content-stretch flex items-center justify-center px-[12px] py-[2px] relative rounded-[6px] shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
         <p className="leading-[20px]">ODI</p>
       </div>
     </div>
@@ -8299,10 +8300,10 @@ function Container24() {
   return (
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start leading-[0] not-italic relative size-full">
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center relative shrink-0 text-[#fef0f0] text-[30px] w-full">
+        <div className="flex flex-col justify-center relative shrink-0 text-[#fef0f0] text-[30px] w-full">
           <p className="leading-[44px]" ref={countRef}>142</p>
         </div>
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Dự án ra nước ngoài</p>
         </div>
       </div>
@@ -8324,7 +8325,7 @@ function OverlayBorderOverlayBlur6() {
 function Frame62() {
   return (
     <div className="content-stretch flex items-center justify-center pb-[5px] relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         <p className="leading-[24px]">tỷ USD</p>
       </div>
     </div>
@@ -8335,7 +8336,7 @@ function Frame59() {
   const countRef = useCountUp(5.2, { decimals: 1 });
   return (
     <div className="content-stretch flex gap-[6px] items-end relative shrink-0 w-full">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
         <p className="leading-[44px]" ref={countRef}>5,2</p>
       </div>
       <Frame62 />
@@ -8348,7 +8349,7 @@ function Container25() {
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
         <Frame59 />
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Tổng vốn đầu tư</p>
         </div>
       </div>
@@ -8370,7 +8371,7 @@ function OverlayBorderOverlayBlur7() {
 function Frame64() {
   return (
     <div className="content-stretch flex items-center justify-center pb-[5px] relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         <p className="leading-[24px]">tỷ USD</p>
       </div>
     </div>
@@ -8381,7 +8382,7 @@ function Frame63() {
   const countRef = useCountUp(1.1, { decimals: 1 });
   return (
     <div className="content-stretch flex gap-[6px] items-end relative shrink-0 w-full">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#fef0f0] text-[30px] whitespace-nowrap">
         <p className="leading-[44px]" ref={countRef}>1,1</p>
       </div>
       <Frame64 />
@@ -8394,7 +8395,7 @@ function Container26() {
     <div className="relative shrink-0" data-name="Container">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
         <Frame63 />
-        <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
+        <div className="flex flex-col justify-center leading-[0] not-italic opacity-70 relative shrink-0 text-[16px] text-white w-full">
           <p className="leading-[24px]">Vốn chuyển về</p>
         </div>
       </div>
@@ -8458,7 +8459,7 @@ function Frame67() {
               </svg>
             </div>
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
             <p className="leading-[normal]">Hà Nội</p>
           </div>
         </div>
@@ -8470,10 +8471,10 @@ function Frame67() {
 function Frame70() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] not-italic relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[24px] whitespace-nowrap">
-        <p className="leading-[30px]">9</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[24px] whitespace-nowrap">
+        <p className="leading-[30px] font-semibold">9</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px] w-[108px]">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px] w-[108px]">
         <p className="leading-[20px]">Khu CN</p>
       </div>
     </div>
@@ -8524,10 +8525,10 @@ function Frame69() {
 function Frame72() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] not-italic relative shrink-0">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[24px] whitespace-nowrap">
-        <p className="leading-[30px]">7.200</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[24px] whitespace-nowrap">
+        <p className="leading-[30px] font-semibold">7.200</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px] w-[108px]">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px] w-[108px]">
         <p className="leading-[20px]">Dự án</p>
       </div>
     </div>
@@ -8584,10 +8585,10 @@ function Frame68() {
 function Frame75() {
   return (
     <div className="content-stretch flex gap-[4px] items-end relative shrink-0 whitespace-nowrap">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21] text-[24px]">
-        <p className="leading-[30px]">$ 42,1</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[#1a1c21] text-[24px]">
+        <p className="leading-[30px] font-semibold">$ 42,1</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px]">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px]">
         <p className="leading-[20px]">tỷ</p>
       </div>
     </div>
@@ -8598,7 +8599,7 @@ function Frame74() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] not-italic relative shrink-0">
       <Frame75 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px] w-[108px]">
+      <div className="flex flex-col justify-center opacity-70 relative shrink-0 text-[#4d5464] text-[14px] w-[128px]">
         <p className="leading-[20px]">Tổng vốn đầu tư</p>
       </div>
     </div>
@@ -8655,7 +8656,7 @@ function Frame77() {
       />
       <div className="flex flex-row items-center size-full">
         <div className="content-stretch flex items-center px-[12px] py-[8px] relative size-full">
-          <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] uppercase whitespace-nowrap">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] uppercase whitespace-nowrap">
             <p className="leading-[20px]">Hạ tầng</p>
           </div>
         </div>
@@ -8696,10 +8697,10 @@ function Background() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[34px]">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[34px]">
             <p className="leading-[20px]">Điện</p>
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] whitespace-nowrap">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] whitespace-nowrap">
             <p className="leading-[20px]">110kV - 500kV</p>
           </div>
         </div>
@@ -8754,10 +8755,10 @@ function Background1() {
           >
             <WaterDropDropsRainRainyMeteorologyWaterPrecipitationWeather />
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[34px]">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[34px]">
             <p className="leading-[20px]">Nước</p>
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] whitespace-nowrap">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] whitespace-nowrap">
             <p className="leading-[20px]">50.000 m³/ngày</p>
           </div>
         </div>
@@ -8836,10 +8837,10 @@ function Background2() {
           >
             <PlaneFlightBoardTimeScheduleAirplaneListAirport />
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[34px]">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[14px] w-[34px]">
             <p className="leading-[20px]">Vị trí</p>
           </div>
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] whitespace-nowrap">
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[14px] whitespace-nowrap">
             <p className="leading-[20px]">{`Gần cảng biển & sân bay`}</p>
           </div>
         </div>
@@ -8894,8 +8895,8 @@ function Frame78() {
       />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[8px] items-center justify-center px-[16px] py-[10px] relative size-full">
-          <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[16px] whitespace-nowrap">
-            <p className="leading-[normal]">Xem toàn bộ bản đồ</p>
+          <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[16px] whitespace-nowrap">
+            <p className="leading-[normal] font-medium">Xem toàn bộ bản đồ</p>
           </div>
           <div
             className="overflow-clip relative shrink-0 size-[20px]"
@@ -8934,10 +8935,10 @@ function Frame15() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 text-[56px] w-full whitespace-nowrap">
       <div data-name="hero-line" className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center mb-[-8px] relative shrink-0 text-[#7a1f36]">
-        <p className="leading-[normal]">Cổng một cửa</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Cổng một cửa</p>
       </div>
-      <div data-name="hero-line" className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[#1a1c21]">
-        <p className="leading-[normal]">đầu tư Quốc Gia Việt Nam</p>
+      <div data-name="hero-line" className="flex flex-col justify-center relative shrink-0 text-[#1a1c21]">
+        <p className="leading-[1.5] font-semibold">đầu tư Quốc Gia Việt Nam</p>
       </div>
     </div>
   );
@@ -8947,7 +8948,7 @@ function Frame80() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-center leading-[0] not-italic relative shrink-0 text-center w-full">
       <Frame15 />
-      <div data-name="hero-subtitle" className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center relative shrink-0 text-[#4d5464] text-[20px] w-full">
+      <div data-name="hero-subtitle" className="flex flex-col justify-center relative shrink-0 text-[#4d5464] text-[20px] w-full">
         <p className="leading-[normal]">
           Kết nối nhà đầu tư với cơ hội đầu tư hấp dẫn tại Việt Nam
         </p>
@@ -8959,11 +8960,11 @@ function Frame80() {
 function Button3() {
   return (
     <div
-      className="bg-white relative rounded-[400px] shrink-0 w-[140px]"
+      className="bg-white relative rounded-[400px] shrink-0 w-[180px]"
       data-name="Button"
     >
-      <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[20px] py-[12px] relative rounded-[inherit] size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#1a1c21] text-[16px] tracking-[-0.08px] whitespace-nowrap">
+      <div className="content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[50.5px] py-[16px] relative rounded-[inherit] size-full">
+        <p className="leading-[normal] not-italic relative shrink-0 text-[#1a1c21] text-[20px] tracking-[-0.08px] whitespace-nowrap font-semibold">
           Đăng ký
         </p>
       </div>
@@ -8978,10 +8979,10 @@ function Button3() {
 function Button4() {
   return (
     <div
-      className="bg-[#7a1f36] content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[24px] py-[12px] relative rounded-[400px] shadow-[0px_6px_24px_2px_rgba(138,25,29,0.25)] shrink-0 w-[140px]"
+      className="bg-[#7a1f36] content-stretch flex gap-[8px] items-center justify-center overflow-clip px-[50.5px] py-[16px] relative rounded-[400px] shadow-[0px_6px_24px_2px_rgba(138,25,29,0.25)] shrink-0 w-[180px]"
       data-name="Button"
     >
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.08px] whitespace-nowrap">
+      <p className="font-semibold leading-[normal] not-italic relative shrink-0 text-[20px] text-white tracking-[-0.08px] whitespace-nowrap">
         Đăng nhập
       </p>
     </div>
@@ -11173,7 +11174,7 @@ function Button5() {
       className="absolute content-stretch flex gap-[8px] items-center justify-center left-[1123px] overflow-clip rounded-[400px] top-[2906px]"
       data-name="Button"
     >
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[20px] not-italic relative shrink-0 text-[#7a1f36] text-[14px] tracking-[-0.07px] whitespace-nowrap">
+      <p className="leading-[20px] not-italic relative shrink-0 text-[#7a1f36] text-[14px] tracking-[-0.07px] whitespace-nowrap font-medium">
         XEM TẤT CẢ
       </p>
       <div
@@ -11204,7 +11205,7 @@ function Button6() {
       className="absolute content-stretch flex gap-[8px] items-center justify-center left-[1123px] overflow-clip rounded-[400px] top-[3215px]"
       data-name="Button"
     >
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[20px] not-italic relative shrink-0 text-[#7a1f36] text-[14px] tracking-[-0.07px] whitespace-nowrap">
+      <p className="leading-[20px] not-italic relative shrink-0 text-[#7a1f36] text-[14px] tracking-[-0.07px] whitespace-nowrap font-medium">
         XEM TẤT CẢ
       </p>
       <div
@@ -11235,7 +11236,7 @@ function Button7() {
       className="absolute content-stretch flex gap-[8px] items-center justify-center left-[1123px] overflow-clip rounded-[400px] top-[5455px]"
       data-name="Button"
     >
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[20px] not-italic relative shrink-0 text-[#7a1f36] text-[14px] tracking-[-0.07px] whitespace-nowrap">
+      <p className="leading-[20px] not-italic relative shrink-0 text-[#7a1f36] text-[14px] tracking-[-0.07px] whitespace-nowrap font-medium">
         XEM TẤT CẢ
       </p>
       <div
@@ -11279,11 +11280,11 @@ function LutSaDiBSungMtSDiuCaLutThuGiaTrGiaTangToThunLiChoKinhDoanh() {
 function Frame83() {
   return (
     <div className="content-stretch flex flex-col gap-[12px] items-start not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] h-[56px] leading-[28px] relative shrink-0 text-[#1e2a37] text-[20px] w-full">
+      <p className="h-[56px] leading-[28px] relative shrink-0 text-[#1e2a37] text-[20px] w-full font-semibold">
         Luật Sửa đổi, bổ sung một số điều của Luật Thuế giá trị gia tăng tạo
         thuận lợi cho kinh doanh
       </p>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[22px] relative shrink-0 text-[#4d5464] text-[14px] w-full">
+      <p className="leading-[22px] relative shrink-0 text-[#4d5464] text-[14px] w-full">
         Chiều 9-12, Quốc hội đã tiến hành thảo luận tại hội trường về dự án Luật
         Sửa đổi, bổ sung một số điều của Luật Thuế giá trị gia tăng (GTGT).
         Phiên họp do Chủ tịch Quốc hội Trần Thanh Mẫn chủ tọa, Phó Chủ tịch Quốc
@@ -11306,7 +11307,7 @@ function Frame86() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">Mạng lưới</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Mạng lưới</p>
       </div>
     </div>
   );
@@ -11316,8 +11317,8 @@ function Frame85() {
   return (
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame86 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">hỗ trợ</p>
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
+        <p className="leading-[normal] font-semibold">hỗ trợ</p>
       </div>
     </div>
   );
@@ -11327,7 +11328,7 @@ function Frame84() {
   return (
     <div data-reveal="section" className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-center left-[calc(50%-0.5px)] top-[6014px]">
       <Frame85 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
         <p className="leading-[normal]">
           Cập nhật mới nhất về môi trường đầu tư và chính sách ưu đãi
         </p>
@@ -11339,13 +11340,13 @@ function Frame84() {
 function Frame88() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-center justify-center not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
+      <p className="leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
         Hotline 24/7
       </p>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
-        <p className="leading-[24px]">+84 (24) 3936 1234</p>
+      <div className="flex flex-col justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
+        <p className="leading-[24px] font-medium">+84 (24) 3936 1234</p>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
         Hỗ trợ khẩn cấp mọi lúc
       </p>
     </div>
@@ -11420,13 +11421,13 @@ function MailSendEnvelopeEnvelopeEmailMessageUnopenedSealedClose() {
 function Frame90() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-center justify-center not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
+      <p className="leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
         Email
       </p>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
-        <p className="leading-[24px]">support@investment.gov.vn</p>
+      <div className="flex flex-col justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
+        <p className="leading-[24px] font-medium">support@investment.gov.vn</p>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
         Phản hồi trong 24h
       </p>
     </div>
@@ -11481,13 +11482,13 @@ function ChatTwoBubblesOvalMessagesMessageBubbleChatOvalConversation() {
 function Frame91() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-center justify-center not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
+      <p className="leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
         Live Chat
       </p>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
-        <p className="leading-[24px]">Trò chuyện ngay</p>
+      <div className="flex flex-col justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
+        <p className="leading-[24px] font-medium">Trò chuyện ngay</p>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
         Online: 8:00 - 22:00
       </p>
     </div>
@@ -11511,13 +11512,13 @@ function Frame111() {
 function Frame92() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-center justify-center not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
+      <p className="leading-[normal] min-w-full relative shrink-0 text-[#667085] text-[12px] text-center w-[min-content]">
         Văn phòng đại diện
       </p>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Medium',sans-serif] justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
-        <p className="leading-[24px]">15+ quốc gia</p>
+      <div className="flex flex-col justify-center leading-[0] relative shrink-0 text-[#1a1c21] text-[16px] whitespace-nowrap">
+        <p className="leading-[24px] font-medium">15+ quốc gia</p>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+      <p className="leading-[normal] relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
         Hỗ trợ tại chỗ
       </p>
     </div>
@@ -11559,7 +11560,7 @@ function Frame95() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">Câu chuyện</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Câu chuyện</p>
       </div>
     </div>
   );
@@ -11569,8 +11570,8 @@ function Frame94() {
   return (
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame95 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal]">thành công</p>
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
+        <p className="leading-[normal] font-semibold">thành công</p>
       </div>
     </div>
   );
@@ -11580,7 +11581,7 @@ function Frame93() {
   return (
     <div data-reveal="section" className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-start left-[calc(50%-265.5px)] top-[5430px]">
       <Frame94 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#4d5464] text-[16px] text-center whitespace-nowrap">
         <p className="leading-[normal]">
           Hơn 35.000 dự án FDI đã lựa chọn Việt Nam làm điểm đến đầu tư
         </p>
@@ -11593,7 +11594,7 @@ function Frame97() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-center text-white whitespace-nowrap">
-        <p className="leading-[normal]">Kết nối</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Kết nối</p>
       </div>
     </div>
   );
@@ -11603,7 +11604,7 @@ function Frame96() {
   return (
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame97 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-center text-white whitespace-nowrap">
+      <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-center text-white whitespace-nowrap">
         <p className="leading-[normal]">đối tác</p>
       </div>
     </div>
@@ -11614,11 +11615,9 @@ function Frame109() {
   return (
     <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[2px] items-center left-1/2 top-[3935px] w-[538px]">
       <Frame96 />
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] min-w-full not-italic opacity-70 relative shrink-0 text-[16px] text-white w-[min-content]">
-        <p className="leading-[normal]">
-          Nền tảng kết nối thông minh dựa trên profile của bạn. Chúng tôi phân
-          tích nhu cầu đầu tư, ngành nghề, quy mô vốn để gợi ý đối tác tiềm năng
-          phù hợp nhất.
+      <div className="flex flex-col justify-center leading-[0] min-w-full not-italic opacity-70 relative shrink-0 text-[16px] text-white w-[min-content]">
+        <p className="leading-[normal] w-[592px]">
+          Nền tảng kết nối thông minh dựa trên profile của bạn. Chúng tôi phân tích nhu cầu đầu tư, ngành nghề, quy mô vốn để gợi ý đối tác tiềm năng phù hợp nhất.
         </p>
       </div>
     </div>
@@ -11651,7 +11650,7 @@ function Frame103() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <p className="leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         Kết nối thông minh
       </p>
     </div>
@@ -11662,7 +11661,7 @@ function Frame104() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[235px] top-[4241px] w-[252px]">
       <Frame103 />
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[20px] min-w-full not-italic opacity-70 relative shrink-0 text-[14px] text-white w-[min-content]">
+      <p className="leading-[20px] min-w-full not-italic opacity-70 relative shrink-0 text-[14px] text-white w-[min-content]">
         Thuật toán AI phân tích profile để gợi ý đối tác phù hợp nhất
       </p>
     </div>
@@ -11698,7 +11697,7 @@ function Frame105() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
+      <p className="leading-[26px] not-italic relative shrink-0 text-[16px] text-white whitespace-nowrap">
         Đối tác chính xác
       </p>
     </div>
@@ -11709,7 +11708,7 @@ function Frame106() {
   return (
     <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[12px] h-[74px] items-start left-[calc(50%+6px)] top-[4241px] w-[264px]">
       <Frame105 />
-      <p className="flex-[1_0_0] font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[20px] min-h-px not-italic opacity-70 relative text-[14px] text-white w-[230px]">
+      <p className="flex-[1_0_0] leading-[20px] min-h-px not-italic opacity-70 relative text-[14px] text-white w-[230px]">
         Lọc theo ngành nghề, quy mô vốn, địa điểm đầu tư mong muốn
       </p>
     </div>
@@ -11742,7 +11741,7 @@ function Frame107() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[26px] not-italic relative shrink-0 text-[16px] text-white w-[260px]">
+      <p className="leading-[26px] not-italic relative shrink-0 text-[16px] text-white w-[260px]">
         Cơ hội độc quyền
       </p>
     </div>
@@ -11753,7 +11752,7 @@ function Frame108() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[954px] top-[4241px] w-[252px]">
       <Frame107 />
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[20px] not-italic opacity-70 relative shrink-0 text-[14px] text-white w-full">
+      <p className="leading-[20px] not-italic opacity-70 relative shrink-0 text-[14px] text-white w-full">
         Tiếp cận nhà đầu tư và dự án chưa công bố trên thị trường
       </p>
     </div>
@@ -11764,10 +11763,10 @@ function Frame98() {
   const countRef = useCountUp(5000, { suffix: "+", separator: "." });
   return (
     <div className="absolute content-stretch flex flex-col items-start leading-[0] left-[235px] not-italic text-center text-white top-[4097px] whitespace-nowrap">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[40px]">
-        <p className="leading-[60px]" ref={countRef}>5.000+</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[40px]">
+        <p className="leading-[60px] font-semibold" ref={countRef}>5.000+</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-80 relative shrink-0 text-[12px] tracking-[0.24px]">
+      <div className="flex flex-col justify-center opacity-80 relative shrink-0 text-[12px] tracking-[0.24px]">
         <p className="leading-[normal]">Doanh nghiệp Việt Nam</p>
       </div>
     </div>
@@ -11778,10 +11777,10 @@ function Frame99() {
   const countRef = useCountUp(2500, { suffix: "+", separator: "." });
   return (
     <div className="absolute content-stretch flex flex-col items-start leading-[0] left-[596px] not-italic text-center text-white top-[4097px] whitespace-nowrap">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[40px]">
-        <p className="leading-[60px]" ref={countRef}>2.500+</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[40px]">
+        <p className="leading-[60px] font-semibold" ref={countRef}>2.500+</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-80 relative shrink-0 text-[12px] tracking-[0.24px]">
+      <div className="flex flex-col justify-center opacity-80 relative shrink-0 text-[12px] tracking-[0.24px]">
         <p className="leading-[normal]">Nhà đầu tư FDI</p>
       </div>
     </div>
@@ -11792,10 +11791,10 @@ function Frame100() {
   const countRef = useCountUp(800, { suffix: "+" });
   return (
     <div className="absolute content-stretch flex flex-col items-start leading-[0] left-[954px] not-italic text-center text-white top-[4097px] whitespace-nowrap">
-      <div className="flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center relative shrink-0 text-[40px]">
-        <p className="leading-[60px]" ref={countRef}>800+</p>
+      <div className="flex flex-col justify-center relative shrink-0 text-[40px]">
+        <p className="leading-[60px] font-semibold" ref={countRef}>800+</p>
       </div>
-      <div className="flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center opacity-80 relative shrink-0 text-[12px] tracking-[0.24px]">
+      <div className="flex flex-col justify-center opacity-80 relative shrink-0 text-[12px] tracking-[0.24px]">
         <p className="leading-[normal]">Kết nối thành công</p>
       </div>
     </div>
@@ -11976,10 +11975,10 @@ function Frame113() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[24px] text-right w-[70px] text-nowrap">
-        <p className="leading-[normal]">Bước 1</p>
+        <p className="leading-[normal] font-semibold font-merriweather">Bước 1</p>
       </div>
       <Frame10 />
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold" data-step-title="1">
         Tạo profile đầu tư của bạn
       </p>
     </div>
@@ -12053,10 +12052,10 @@ function Frame114() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[24px] text-right w-[70px]">
-        <p className="leading-[normal] text-nowrap">Bước 2</p>
+        <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 2</p>
       </div>
       <Frame11 />
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold" data-step-title="2">
         AI phân tích và gợi ý đối tác
       </p>
     </div>
@@ -12130,10 +12129,10 @@ function Frame119() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[24px] text-right w-[70px]">
-        <p className="leading-[normal] text-nowrap">Bước 3</p>
+        <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 3</p>
       </div>
       <Frame12 />
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold" data-step-title="3">
         Kết nối trực tiếp qua nền tảng
       </p>
     </div>
@@ -12207,10 +12206,10 @@ function Frame121() {
   return (
     <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
       <div className="flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[24px] text-right w-[70px]">
-        <p className="leading-[normal] text-nowrap">Bước 4</p>
+        <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 4</p>
       </div>
       <Frame13 />
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap">{`Hỗ trợ đàm phán & hợp tác`}</p>
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold" data-step-title="4">{`Hỗ trợ đàm phán & hợp tác`}</p>
     </div>
   );
 }
@@ -12243,7 +12242,7 @@ function Frame118() {
 
 function Frame128() {
   return (
-    <div className="absolute content-stretch flex font-['SVN-Neue_Montreal:Regular',sans-serif] gap-[12px] items-center leading-[normal] left-[1189px] not-italic text-[12px] text-white top-[393px] whitespace-nowrap">
+    <div className="absolute content-stretch flex gap-[12px] items-center leading-[normal] left-[1189px] not-italic text-[12px] text-white top-[393px] whitespace-nowrap">
       <p
         className="relative shrink-0"
         style={{ fontFeatureSettings: "'salt', 'liga' 0" }}
@@ -12299,7 +12298,7 @@ function Frame4() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[14px] text-white w-[304px]">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[14px] text-white w-[304px]">
         Số 6-8 Phan Huy Chú, Phường Phan Chu Trinh, Thành phố Hà Nội
       </p>
     </div>
@@ -12341,7 +12340,7 @@ function Frame5() {
   return (
     <div className="content-stretch flex gap-[20px] items-center relative shrink-0">
       <Headset />
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
         1900 1234
       </p>
     </div>
@@ -12397,7 +12396,7 @@ function Frame6() {
   return (
     <div className="content-stretch flex gap-[20px] items-center relative shrink-0">
       <EnvelopeOpen />
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap">
         Tonghop.dtnn@mpi.gov.vn
       </p>
     </div>
@@ -12421,7 +12420,7 @@ function Col() {
       data-name="Col 1"
     >
       <p
-        className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic opacity-70 relative shrink-0 text-[12px] text-white tracking-[1.2px] uppercase whitespace-nowrap"
+        className="leading-[normal] not-italic opacity-70 relative shrink-0 text-[12px] text-white tracking-[1.2px] uppercase whitespace-nowrap"
         style={{ fontFeatureSettings: "'salt', 'liga' 0" }}
       >
         thông tin liên hệ
@@ -12434,7 +12433,7 @@ function Col() {
 function ListItems() {
   return (
     <div
-      className="content-stretch flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] gap-[12px] items-start justify-center leading-[24px] overflow-clip relative shrink-0 text-[16px] w-full"
+      className="content-stretch flex flex-col gap-[12px] items-start justify-center leading-[24px] overflow-clip relative shrink-0 text-[16px] w-full"
       data-name="List Items"
     >
       <p
@@ -12478,7 +12477,7 @@ function Col1() {
       data-name="Col 6"
     >
       <p
-        className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] opacity-70 relative shrink-0 text-[12px] tracking-[1.2px] uppercase whitespace-nowrap"
+        className="leading-[normal] opacity-70 relative shrink-0 text-[12px] tracking-[1.2px] uppercase whitespace-nowrap"
         style={{ fontFeatureSettings: "'salt', 'liga' 0" }}
       >
         về chúng tôi
@@ -12491,7 +12490,7 @@ function Col1() {
 function ListItems1() {
   return (
     <div
-      className="content-stretch flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] gap-[12px] items-start justify-center leading-[24px] overflow-clip relative shrink-0 text-[16px] w-full"
+      className="content-stretch flex flex-col gap-[12px] items-start justify-center leading-[24px] overflow-clip relative shrink-0 text-[16px] w-full"
       data-name="List Items"
     >
       <p
@@ -12541,7 +12540,7 @@ function Col2() {
       data-name="Col 7"
     >
       <p
-        className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] opacity-70 relative shrink-0 text-[12px] tracking-[1.2px] uppercase whitespace-nowrap"
+        className="leading-[normal] opacity-70 relative shrink-0 text-[12px] tracking-[1.2px] uppercase whitespace-nowrap"
         style={{ fontFeatureSettings: "'salt', 'liga' 0" }}
       >
         dịch vụ
@@ -12554,7 +12553,7 @@ function Col2() {
 function ListItems2() {
   return (
     <div
-      className="content-stretch flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] gap-[12px] items-start justify-center leading-[24px] overflow-clip relative shrink-0 text-[16px] w-full"
+      className="content-stretch flex flex-col gap-[12px] items-start justify-center leading-[24px] overflow-clip relative shrink-0 text-[16px] w-full"
       data-name="List Items"
     >
       <p
@@ -12592,7 +12591,7 @@ function Col3() {
       data-name="Col 8"
     >
       <p
-        className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] opacity-70 relative shrink-0 text-[12px] tracking-[1.2px] uppercase"
+        className="leading-[normal] opacity-70 relative shrink-0 text-[12px] tracking-[1.2px] uppercase"
         style={{ fontFeatureSettings: "'salt', 'liga' 0" }}
       >
         tài nguyên
@@ -12848,7 +12847,7 @@ function SocialLinks() {
 function Frame101() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[39px] top-[244px]">
-      <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic opacity-70 relative shrink-0 text-[12px] text-white tracking-[1.2px] uppercase whitespace-nowrap">
+      <p className="leading-[normal] not-italic opacity-70 relative shrink-0 text-[12px] text-white tracking-[1.2px] uppercase whitespace-nowrap">
         Theo dõi chúng tôi
       </p>
       <SocialLinks />
@@ -12884,7 +12883,7 @@ function FooterBig() {
           </svg>
         </div>
         <p
-          className="absolute font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] left-[calc(50%-680px)] not-italic text-[12px] text-white bottom-[50px] whitespace-nowrap"
+          className="absolute leading-[normal] left-[calc(50%-680px)] not-italic text-[12px] text-white bottom-[50px] whitespace-nowrap"
           style={{ fontFeatureSettings: "'salt', 'liga' 0" }}
         >
           © 2025 Cổng Một Cửa Đầu Tư Quốc Gia. Cục đầu tư nước ngoài - Bộ Tài
@@ -12920,11 +12919,11 @@ function Image() {
 function Frame122() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] relative shrink-0 text-[#1e2a37] text-[16px] w-full">
+      <p className="leading-[24px] relative shrink-0 text-[#1e2a37] text-[16px] w-full font-semibold">
         Jack Ma - Tỷ phú, doanh nhân thương mại điện tử nổi tiếng người Trung
-        Quốc.
+        Quốc
       </p>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] h-[46px] leading-[22px] overflow-hidden relative shrink-0 text-[#4d5464] text-[14px] text-ellipsis w-full">
+      <p className="h-[46px] leading-[22px] overflow-hidden relative shrink-0 text-[#4d5464] text-[14px] text-ellipsis w-full">
         Ông được biết đến là người sáng lập và chủ tịch điều hành của Tập đoàn
         Alibaba, một gia đình của các doanh nghiệp dựa trên Internet rất thành
         công.
@@ -12982,7 +12981,7 @@ function Container31() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         10
       </p>
     </div>
@@ -13021,7 +13020,7 @@ function Container32() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -13041,7 +13040,7 @@ function Frame1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Frame">
       <div className="content-stretch flex flex-col gap-[12px] items-start pb-[24px] pt-[20px] px-[30px] relative size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+        <p className="leading-[normal] not-italic relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
           Câu chuyện
         </p>
         <Frame122 />
@@ -13084,10 +13083,10 @@ function Image1() {
 function Frame124() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] relative shrink-0 text-[#1e2a37] text-[16px] w-full">
+      <p className="leading-[24px] relative shrink-0 text-[#1e2a37] text-[16px] w-full font-semibold">
         Bill Gates - Tỷ phú có khối tài sản “khổng lồ” nhất thế giới
       </p>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] h-[46px] leading-[22px] overflow-hidden relative shrink-0 text-[#4d5464] text-[14px] text-ellipsis w-full">
+      <p className="h-[46px] leading-[22px] overflow-hidden relative shrink-0 text-[#4d5464] text-[14px] text-ellipsis w-full">
         Câu chuyện thành công của Bill Gates từ con số 0 tới tỷ phú có khối tài
         sản nhiều nhất thế giới.
       </p>
@@ -13144,7 +13143,7 @@ function Container33() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         10
       </p>
     </div>
@@ -13183,7 +13182,7 @@ function Container34() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -13203,7 +13202,7 @@ function Frame2() {
   return (
     <div className="relative shrink-0 w-full" data-name="Frame">
       <div className="content-stretch flex flex-col gap-[12px] items-start pb-[24px] pt-[20px] px-[30px] relative size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+        <p className="leading-[normal] not-italic relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
           Câu chuyện
         </p>
         <Frame124 />
@@ -13231,10 +13230,10 @@ function Image2() {
 function Frame126() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start not-italic relative shrink-0 w-full">
-      <p className="font-['SVN-Neue_Montreal:SemiBold',sans-serif] leading-[24px] relative shrink-0 text-[#1e2a37] text-[16px] w-full">
+      <p className="leading-[24px] relative shrink-0 text-[#1e2a37] text-[16px] w-full font-semibold">
         “Gã nghiện giày” Phil Knight - cha đẻ của hãng giày Nike
       </p>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] h-[46px] leading-[22px] overflow-hidden relative shrink-0 text-[#4d5464] text-[14px] text-ellipsis w-full">
+      <p className="h-[46px] leading-[22px] overflow-hidden relative shrink-0 text-[#4d5464] text-[14px] text-ellipsis w-full">
         Với tài sản 21,6 tỷ USD, Phil Knight cũng là một trong những tỷ phú tự
         thân giàu nhất thế giới. Cho dù ông có thể nghỉ hưu và không đảm nhiệm
         vị trí chủ tịch
@@ -13292,7 +13291,7 @@ function Container35() {
           </div>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         10
       </p>
     </div>
@@ -13331,7 +13330,7 @@ function Container36() {
           </svg>
         </div>
       </div>
-      <p className="font-['SVN-Neue_Montreal:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
+      <p className="leading-[normal] not-italic relative shrink-0 text-[#667085] text-[12px] whitespace-nowrap">
         08/04/2026
       </p>
     </div>
@@ -13351,7 +13350,7 @@ function Frame3() {
   return (
     <div className="relative shrink-0 w-full" data-name="Frame">
       <div className="content-stretch flex flex-col gap-[12px] items-start pb-[24px] pt-[20px] px-[30px] relative size-full">
-        <p className="font-['SVN-Neue_Montreal:Medium',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
+        <p className="leading-[normal] not-italic relative shrink-0 text-[#7a1f36] text-[12px] text-center whitespace-nowrap">
           Câu chuyện
         </p>
         <Frame126 />
@@ -13629,7 +13628,7 @@ function useHeroEntrance() {
 
     const lines = container.querySelectorAll<HTMLElement>('[data-name="hero-line"]');
     const subtitle = container.querySelector<HTMLElement>('[data-name="hero-subtitle"]');
-    const cta = container.querySelector<HTMLElement>('[data-name="Button"]');
+    const ctas = container.querySelectorAll<HTMLElement>('[data-name="Button"]');
 
     const tl = gsap.timeline({ delay: 0.4 });
 
@@ -13648,11 +13647,11 @@ function useHeroEntrance() {
       );
     }
 
-    if (cta) {
+    if (ctas.length) {
       tl.fromTo(
-        cta,
+        ctas,
         { y: 15, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.4, ease: "power2.out" },
+        { y: 0, opacity: 1, duration: 0.4, stagger: 0.08, ease: "power2.out" },
         "-=0.1"
       );
     }
@@ -13733,10 +13732,10 @@ export default function Landingpage() {
       <Frame35 />
       <Frame21 />
       <Frame46 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['SVN-Neue_Montreal:SemiBold',sans-serif] justify-center leading-[0] left-[209px] not-italic text-[#7a1f36] text-[26px] top-[4421px] whitespace-nowrap" data-name="process-title">
-        <p className="leading-[normal]">Quy trình kết nối</p>
+      <div className="-translate-y-1/2 absolute flex flex-col justify-center leading-[0] left-[209px] not-italic text-[#7a1f36] text-[26px] top-[4421px] whitespace-nowrap" data-name="process-title">
+        <p className="leading-[normal] font-semibold">Quy trình kết nối</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['SVN-Neue_Montreal:Regular',sans-serif] justify-center leading-[0] left-[299.5px] not-italic text-[#4d5464] text-[12px] text-center top-[2256px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col justify-center leading-[0] left-[299.5px] not-italic text-[#4d5464] text-[12px] text-center top-[2256px] whitespace-nowrap">
         <p className="leading-[normal]">Nhấn vào từng vùng để xem chi tiết.</p>
       </div>
       <Border />
@@ -14417,15 +14416,6 @@ export default function Landingpage() {
         </div>
       </div>
       <Frame79 />
-      <div className="-translate-x-1/2 absolute left-1/2 size-[32px] top-[232px]">
-        <img
-          alt=""
-          className="absolute block inset-0 max-w-none size-full"
-          height="32"
-          src={imgEllipse5}
-          width="32"
-        />
-      </div>
       <Button5 />
       <Button6 />
       <Button7 />
