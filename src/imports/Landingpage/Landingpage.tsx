@@ -12006,7 +12006,7 @@ function Frame113() {
         <p className="leading-[normal] font-semibold font-merriweather">Bước 1</p>
       </div>
       <Frame10 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold" data-step-content-title="1">
         Tạo profile đầu tư của bạn
       </p>
     </div>
@@ -12083,7 +12083,7 @@ function Frame114() {
         <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 2</p>
       </div>
       <Frame11 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold" data-step-content-title="2">
         AI phân tích và gợi ý đối tác
       </p>
     </div>
@@ -12160,7 +12160,7 @@ function Frame119() {
         <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 3</p>
       </div>
       <Frame12 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold" data-step-content-title="3">
         Kết nối trực tiếp qua nền tảng
       </p>
     </div>
@@ -12237,7 +12237,7 @@ function Frame121() {
         <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 4</p>
       </div>
       <Frame13 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold">{`Hỗ trợ đàm phán & hợp tác`}</p>
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold" data-step-content-title="4">{`Hỗ trợ đàm phán & hợp tác`}</p>
     </div>
   );
 }
