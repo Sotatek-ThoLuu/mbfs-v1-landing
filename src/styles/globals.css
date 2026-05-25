@@ -31,21 +31,12 @@
   transition: fill 0.5s ease;
 }
 
-[data-step] [data-step-title] {
-  color: #9ca3af !important;
-  transition: color 0.5s ease;
-}
-
 [data-step][data-active] [data-step-circle] {
   background-color: #7a1f36 !important;
 }
 
 [data-step][data-active] [data-step-icon] svg path {
   fill: white !important;
-}
-
-[data-step][data-active] [data-step-title] {
-  color: #1e2a37 !important;
 }
 
 [data-name="process-title"] {

@@ -156,8 +156,11 @@ function useProcessSection() {
           if (progress <= 0) {
             gsap.set(title, { position: "absolute", top: 4421, left: 209, clearProps: "transform", zIndex: "" });
           } else if (progress >= 1) {
-            const endY = self.end as number;
-            gsap.set(title, { position: "absolute", top: endY + 120, left: 209, clearProps: "transform", zIndex: "" });
+            const lastCircle = steps[steps.length - 1].querySelector<HTMLElement>("[data-step-circle]");
+            const stepEndTop = lastCircle
+              ? lastCircle.getBoundingClientRect().top + window.scrollY + lastCircle.offsetHeight / 2
+              : steps[steps.length - 1].getBoundingClientRect().top + window.scrollY;
+            gsap.set(title, { position: "absolute", top: stepEndTop, left: 209, clearProps: "transform", zIndex: "" });
           } else {
             gsap.set(title, { position: "fixed", top: 130, left: 209 + offset, zIndex: 10 });
           }
@@ -167,6 +170,18 @@ function useProcessSection() {
 
     return () => {
       ScrollTrigger.getAll().forEach((st) => st.kill());
+    };
+  }, []);
+}
+
+function useResetScrollOnLoad() {
+  useEffect(() => {
+    const previousScrollRestoration = window.history.scrollRestoration;
+    window.history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+
+    return () => {
+      window.history.scrollRestoration = previousScrollRestoration;
     };
   }, []);
 }
@@ -6239,7 +6254,7 @@ function Frame17() {
   return (
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal] font-semibold">Dịch vụ công về</p>
+        <p className="leading-[normal] font-merriweather font-semibold">Dịch vụ công về</p>
       </div>
       <Frame18 />
     </div>
@@ -6274,7 +6289,7 @@ function Frame19() {
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame20 />
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal] font-semibold">đầu tư</p>
+        <p className="leading-[normal] font-merriweather font-semibold">đầu tư</p>
       </div>
     </div>
   );
@@ -6294,7 +6309,7 @@ function Frame35() {
 function Frame23() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
-      <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
+      <div className="title-accent flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Văn bản</p>
       </div>
     </div>
@@ -6303,10 +6318,10 @@ function Frame23() {
 
 function Frame21() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center left-[calc(50%-346.5px)] top-[2874px]">
+    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center left-[calc(50%-320.5px)] top-[2874px]">
       <Frame23 />
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal] font-semibold">pháp luật</p>
+        <p className="leading-[normal] font-merriweather font-semibold">pháp luật</p>
       </div>
     </div>
   );
@@ -6315,7 +6330,7 @@ function Frame21() {
 function Frame24() {
   return (
     <div className="content-stretch flex items-center justify-center pt-[5px] relative shrink-0">
-      <div className="title-accent flex flex-col font-['SVN-Ivy_Presto_Display:Italic',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
+      <div className="title-accent flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#7a1f36] text-[42px] text-center whitespace-nowrap">
         <p className="leading-[normal] font-merriweather font-semibold">Tin tức</p>
       </div>
     </div>
@@ -6324,7 +6339,7 @@ function Frame24() {
 
 function Frame46() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center left-[calc(50%-450px)] top-[3194px]">
+    <div className="-translate-x-1/2 absolute content-stretch flex gap-[10px] items-center left-[calc(50%-440px)] top-[3194px]">
       <Frame24 />
     </div>
   );
@@ -6412,7 +6427,7 @@ function Frame28() {
     <div className="content-stretch flex flex-col items-start relative shrink-0">
       <Frame25 />
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-white w-full">
-        <p className="leading-[normal] font-semibold">đầu tư</p>
+        <p className="leading-[normal] font-merriweather font-semibold">đầu tư</p>
       </div>
     </div>
   );
@@ -11318,7 +11333,7 @@ function Frame85() {
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame86 />
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal] font-semibold">hỗ trợ</p>
+        <p className="leading-[normal] font-merriweather font-semibold">hỗ trợ</p>
       </div>
     </div>
   );
@@ -11571,7 +11586,7 @@ function Frame94() {
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame95 />
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[#1a1c21] text-[42px] text-center whitespace-nowrap">
-        <p className="leading-[normal] font-semibold">thành công</p>
+        <p className="leading-[normal] font-merriweather font-semibold">thành công</p>
       </div>
     </div>
   );
@@ -11605,7 +11620,7 @@ function Frame96() {
     <div className="content-stretch flex gap-[10px] items-center relative shrink-0">
       <Frame97 />
       <div className="flex flex-col justify-center leading-[0] not-italic relative shrink-0 text-[42px] text-center text-white whitespace-nowrap">
-        <p className="leading-[normal]">đối tác</p>
+        <p className="leading-[normal] font-merriweather font-semibold">đối tác</p>
       </div>
     </div>
   );
@@ -11978,7 +11993,7 @@ function Frame113() {
         <p className="leading-[normal] font-semibold font-merriweather">Bước 1</p>
       </div>
       <Frame10 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold" data-step-title="1">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold">
         Tạo profile đầu tư của bạn
       </p>
     </div>
@@ -12055,7 +12070,7 @@ function Frame114() {
         <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 2</p>
       </div>
       <Frame11 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold" data-step-title="2">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold">
         AI phân tích và gợi ý đối tác
       </p>
     </div>
@@ -12132,7 +12147,7 @@ function Frame119() {
         <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 3</p>
       </div>
       <Frame12 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold" data-step-title="3">
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap font-semibold">
         Kết nối trực tiếp qua nền tảng
       </p>
     </div>
@@ -12209,7 +12224,7 @@ function Frame121() {
         <p className="leading-[normal] text-nowrap font-semibold font-merriweather">Bước 4</p>
       </div>
       <Frame13 />
-      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold" data-step-title="4">{`Hỗ trợ đàm phán & hợp tác`}</p>
+      <p className="leading-[24px] not-italic relative shrink-0 text-[#1e2a37] text-[20px] whitespace-nowrap  font-semibold">{`Hỗ trợ đàm phán & hợp tác`}</p>
     </div>
   );
 }
@@ -13712,6 +13727,7 @@ function ScrollToTop() {
 }
 
 export default function Landingpage() {
+  useResetScrollOnLoad();
   useArrowAnimation();
   useTitleReveal();
   useProcessSection();
