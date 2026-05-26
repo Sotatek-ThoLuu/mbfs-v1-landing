@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import svgPaths from "./svg-fpdiavvsjr";
 import imgRectangle7 from "./4f06a5e79fa81814d968eca1e7cf29df3170d4b9.png";
 import imgFiaLogo from "./c4a7bf0dfe4112ce3057cdef870af9a4c8382e40.png";
+import imgVietnamEmblem from "./Emblem_of_Vietnam.png";
 import imgImage27 from "./b7d7eec955c61953c37607db4f32c3da2b1acac4.png";
 import imgHanoiBlankMapSvg1 from "./c92182e4c25d6ce28a58e526218c723f85bf97a9.png";
 import imgAnh11 from "./8f5011770a41bb269c4b11d22fb885e855a49476.png";
@@ -5945,7 +5946,7 @@ function FiaLogo() {
         <img
           alt=""
           className="absolute left-0 max-w-none size-full top-0"
-          src={imgFiaLogo}
+          src={imgVietnamEmblem}
         />
       </div>
     </div>
